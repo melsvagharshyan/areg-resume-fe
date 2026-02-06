@@ -24,13 +24,7 @@ const socialLinks: SocialLink[] = [
     id: 'linkedin',
     icon: <FaLinkedin className="text-blue-600 w-6 h-6 flex-shrink-0" />,
     label: 'LinkedIn',
-    url: 'https://www.linkedin.com/in/mels-vagharshyan',
-  },
-  {
-    id: 'website',
-    icon: <FaGlobe className="text-cyan-500 w-6 h-6 flex-shrink-0" />,
-    label: 'Website',
-    url: 'https://www.melsvagharshyan.com',
+    url: 'https://www.linkedin.com/in/areg-hakobyan-953780242',
   },
   {
     id: 'github',
@@ -48,14 +42,14 @@ const socialLinks: SocialLink[] = [
     id: 'telegram',
     icon: <FaTelegram className="text-sky-500 w-6 h-6 flex-shrink-0" />,
     label: 'Telegram',
-    url: '@mels_dev',
+    url: '@areg_hakobyan',
     isCopyOnly: true, // makes it copyable instead of clickable
   },
   {
     id: 'phone',
     icon: <FaPhone className="text-green-600 w-6 h-6 flex-shrink-0" />,
     label: 'Phone',
-    url: '+37494541615',
+    url: '+37494545975',
   },
   {
     id: 'availability',

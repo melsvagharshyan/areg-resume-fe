@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Resume Mels',
-  description: 'Mels Resume Apply App',
+  title: 'Resume Areg',
+  description: 'Areg Resume Apply App',
 };
 
 export default function RootLayout({
