@@ -1,14 +1,6 @@
 'use client';
 
-import {
-  FaGithub,
-  FaGlobe,
-  FaLinkedin,
-  FaCopy,
-  FaEnvelope,
-  FaPhone,
-  FaTelegram,
-} from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaCopy, FaEnvelope, FaPhone, FaTelegram } from 'react-icons/fa';
 import { JSX, useState } from 'react';
 
 interface SocialLink {
