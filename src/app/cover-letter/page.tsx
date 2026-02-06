@@ -9,8 +9,8 @@ import { FaRegCopy } from 'react-icons/fa';
 import { ImSpinner } from 'react-icons/im';
 import { toast } from 'sonner';
 
-export default function FrontendPage() {
-  const type = 'frontend';
+export default function CoverLetterPage() {
+  const type = 'cpp';
 
   const { data, isLoading, isError } = useGetCoverLetterQuery(type);
   const [updateCoverLetter, { isLoading: isUpdating }] = useUpdateCoverLetterMutation();
@@ -63,7 +63,7 @@ export default function FrontendPage() {
     <div className="max-w-4xl mx-auto mt-10 p-8 space-y-6 bg-gradient-to-br from-white to-gray-50 shadow-xl rounded-2xl border border-gray-100">
       {/* Header */}
       <div className="flex justify-between items-center mb-4">
-        <h1 className="text-2xl font-bold text-black">Front-end Cover Letter</h1>
+        <h1 className="text-2xl font-bold text-black">C++ Cover Letter</h1>
         <button
           onClick={handleCopy}
           className="flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-medium

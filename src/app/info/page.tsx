@@ -36,7 +36,7 @@ const socialLinks: SocialLink[] = [
     id: 'email',
     icon: <FaEnvelope className="text-red-500 w-6 h-6 flex-shrink-0" />,
     label: 'Email',
-    url: 'mels.vagharshyandev@gmail.com',
+    url: 'areghakobyan03@gmail.com',
   },
   {
     id: 'telegram',
